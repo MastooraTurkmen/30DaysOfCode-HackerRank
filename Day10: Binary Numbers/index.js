@@ -1,3 +1,6 @@
+// Challenge Answer
+
+
 function main() {
     const n = parseInt(readLine().trim(), 10);
     let binaryString = n.toString(2);
