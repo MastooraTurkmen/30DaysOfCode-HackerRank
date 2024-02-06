@@ -13,7 +13,10 @@ class Student extends Person {
     */
     
     // Write your constructor here
-    
+    constructor(firstName, lastName, id, scores) {
+        super(firstName, lastName, id);
+        this.scores = scores    
+    }
     /*	
     *   Method Name: calculate
     *   @return A character denoting the grade.
