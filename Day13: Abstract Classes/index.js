@@ -8,7 +8,15 @@
     **/
     // Write your constructor here
     
-
+class MyBook extends Book {
+    constructor(title, author, price) {
+        super(title, author)
+        this.price = price;
+        
+    }
+    
+        
+}
     
     /**   
     *   Method Name: display
