@@ -14,6 +14,13 @@ class MyBook extends Book {
         this.price = price;
         
     }
+    
+    /**   
+    *   Method Name: display
+    *   
+    *   Print the title, author, and price in the specified format.
+    **/
+    // Write your method here
     display() {
         console.log(`Title: ${this.title}`)
         console.log(`Author: ${this.author}`)
@@ -22,11 +29,5 @@ class MyBook extends Book {
         
 }
     
-    /**   
-    *   Method Name: display
-    *   
-    *   Print the title, author, and price in the specified format.
-    **/
-    // Write your method here
     
 // End class
