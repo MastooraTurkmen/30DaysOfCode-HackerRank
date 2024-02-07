@@ -14,4 +14,11 @@ class Difference {
     }
 }
 
+function main() {
+    // Enter your code here
+    
+    const n: number = parseInt(readLine().trim(), 10);
+    const a: number[] = readLine().split(' ').map(aTemp => parseInt(aTemp, 10));
+    
 
+}
